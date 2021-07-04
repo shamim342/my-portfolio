@@ -1,0 +1,41 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+body{
+    font-family:  'Poppins', sans-serif;
+}
+.about-me h1{
+    font-size: 50px;
+    padding-top: 20px;
+}
+.about-me h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.about-me{
+    width: 40%;
+    margin-left: 5%;
+}
+.color{
+    color: orange;
+}
+.my{
+    display: flex;
+   background-image: url(../my-portfolio/images/top-banner.png);
+   background-repeat: no-repeat;
+    
+}
+
+.my-img img{
+    width: 75%;
+    margin-left: 15%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(pink,red);
+    padding: 8px 15px;
+    border-radius: 5px;
+    
+
+}
