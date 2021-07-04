@@ -20,12 +20,19 @@ body{
 .color{
     color: orange;
 }
-.my{
+.first-section{
     display: flex;
    background-image: url(../my-portfolio/images/top-banner.png);
    background-repeat: no-repeat;
+   margin-bottom: 100px;
     
 }
+#second-section{
+    background-image: url(../my-portfolio/images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
 
 .my-img img{
     width: 75%;
@@ -39,3 +46,44 @@ body{
     
 
 }
+.third-section{
+   display: flex;
+ 
+  
+  
+}
+.third-section div{
+    box-shadow: 15px 15px 50px gray;
+    margin: 30px 40px;
+    
+    padding: 30px 30px;
+   
+    
+}
+.final{
+    background-image: url(../my-portfolio/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+.final h1 {
+    font-size: 50px;
+}
+.final h3{
+    color: salmon;
+    margin-bottom: 15px;
+    
+}
+.final p{
+    text-align: justify;
+}
+.full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, rgb(21, 17, 228), rgb(24, 219, 17));
+    border-image-slice: 1;
+}
+.baby-developer{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, rgb(122, 255, 188), rgb(255, 71, 230));
+    border-image-slice: 1;
+}
+
